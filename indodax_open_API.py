@@ -26,7 +26,7 @@ def interface():
                 else:
                     print('{} : Rp{:,.2f}'.format(i,int(values[getindex][i])))
         else:
-            raise Exception('sorry we cannot found the crypto currencies')
+            raise Exception('sorry we cannot found the cryptocurrencies')
 
     elif exchange == 'usdt':
         if currencies in keys:
